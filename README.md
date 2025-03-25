@@ -26,7 +26,7 @@ and Outputs are as follows:
   3. Neutral score (neu)
   4. Compound score (compound) - representing the overall sentiment strength, normalized to range from -1 to 1. 
 
-## Lexicon File (vader_lexicon.txt)
+### Lexicon File (vader_lexicon.txt)
 The file `vader_lexicon.txt` contains words with associated sentiment values and distributions. The following table shows the format of a few lines in this file:
 
 Table 1: The contents of given lexicon file vaderlexicon.txt from vaderSentiment
@@ -40,6 +40,6 @@ Table 1: The contents of given lexicon file vaderlexicon.txt from vaderSentiment
 
 
 Each line contains:
-- A word (word) as a string. 
+- A word (Word) as a string. 
 - Two floating-point values (Sentiment value 1 and Sentiment Value 2), representing the average sentiment score and the standard deviation, respectively.
 - An array of integers (Array of Distribution) representing human sentiment ratings distribution for each word. These ratings show the range of sentiment perceptions across different people. 
