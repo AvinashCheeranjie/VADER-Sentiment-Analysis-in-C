@@ -37,6 +37,14 @@ funny 1.9 0.53852 [3, 2, 2, 1, 2, 2, 1, 2, 2, 2]
 handsome 2.2 0.74833 [2, 2, 2, 2, 2, 3, 4, 1, 2, 2]
 guilty -1.8 0.6 [-1, -2, -2, -3, -2, -2, -1, -2, -2, -1]
 ```
+Table 1: The contents of given lexicon file vaderlexicon.txt from vaderSentiment
+|Word | Sentiment Value 1 | Sentiment Value 2 | Array of Distribution|
+---------------------------------------------------------------------
+|smart |1.7 |0.78102 |[2, 2, 1, 2, 1, 3, 2, 0, 2, 2]|
+|funny |1.9 |0.53852 |[3, 2, 2, 1, 2, 2, 1, 2, 2, 2]|
+|handsome |2.2 |0.74833 |[2, 2, 2, 2, 2, 3, 4, 1, 2, 2]|
+|guilty |-1.8 |0.6 |[-1, -2, -2, -3, -2, -2, -1, -2, -2, -1]|
+
 
 Each line contains:
 - A word (word) as a string. 
