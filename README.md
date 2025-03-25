@@ -1,4 +1,4 @@
-# Vader-Sentiment-Analysis-in-C
+# VADER-Sentiment-Analysis-in-C
 Sentiment analysis is a Natural Language Processing (NLP) technique used to determine and
 analyze emotions, opinions, and subjective information within text data. It’s widely employed to
 assess sentiments in social media posts, customer reviews, and other written feedback, categorizing
@@ -15,9 +15,10 @@ see:[ VADER Sentiment Analysis.](https://blog.quantinsti.com/vader-sentiment/#:~
 ## Problem Statement
 In this assignment, I implemented a simplified version of the VADER sentiment analysis tool in C. The VADER implementation involves reading a lexicon file, identifying sentiment-bearing words within a sentence, and applying specific rules to calculate sentiment scores. Inputs
 and Outputs are as follows:
+
 - Input:
   1. A sentence string (e.g., "VADER is very smart, handsome, and funny.").
-  2. A lexicon file (vaderlexicon.txt) containing words with sentiment scores and sentiment distributions from human ratings.
+  2. A lexicon file `vaderlexicon.txt` containing words with sentiment scores and sentiment distributions from human ratings.
  
 - Output: The sentiment scores for the input text, including:
 1. Positive score (pos)
