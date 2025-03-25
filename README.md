@@ -17,5 +17,25 @@ In this assignment, I implemented a simplified version of the VADER sentiment an
 and Outputs are as follows:
 - Input:
   1. A sentence string (e.g., "VADER is very smart, handsome, and funny.").
-  2. A lexicon file (vaderlexicon.txt) containing words with sentiment scores and senti-
-ment distributions from human ratings.
+  2. A lexicon file (vaderlexicon.txt) containing words with sentiment scores and sentiment distributions from human ratings.
+ 
+- Output: The sentiment scores for the input text, including:
+1. Positive score (pos)
+2. Negative score (neg)
+3. Neutral score (neu)
+4. Compound score (compound) - representing the overall sentiment strength, normalized to range from -1 to 1. 
+
+## Lexicon File (vader_lexicon.txt)
+The file `vaderlexicon.txt` contains words with associated sentiment values and distributions. The following table shows the format of a few lines in this file:
+
+`Table 1: The contents of given lexicon file vaderlexicon.txt from vaderSentiment
+Word Sentiment Value 1 Sentiment Value 2 Array of Distribution
+smart 1.7 0.78102 [2, 2, 1, 2, 1, 3, 2, 0, 2, 2]
+funny 1.9 0.53852 [3, 2, 2, 1, 2, 2, 1, 2, 2, 2]
+handsome 2.2 0.74833 [2, 2, 2, 2, 2, 3, 4, 1, 2, 2]
+guilty -1.8 0.6 [-1, -2, -2, -3, -2, -2, -1, -2, -2, -1]`
+
+Each line contains:
+-A word (word) as a string. 
+- Two floating-point values (Sentiment value 1 and Sentiment Value 2), representing the average sentiment score and the standard deviation, respectively.
+- An array of integers (Array of Distribution) representing human sentiment ratings distribution for each word. These ratings show the range of sentiment perceptions across different people. 
